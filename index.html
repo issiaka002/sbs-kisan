@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SBS · Automates de dépôt et compteuses Kisan</title>
+<meta name="description" content="SBS installe et entretient en Côte d'Ivoire les automates de dépôt d'espèces et les compteuses de billets Kisan : KD10, KD20, KD100, KDL-100 et Newton 3. Maquette de démonstration.">
+<meta name="theme-color" content="#0b1015">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%230b1015'/><rect x='6' y='9' width='20' height='5' fill='%236aa3df'/><rect x='6' y='16' width='20' height='8' fill='%23eef2f5'/></svg>">
+<link rel="preload" as="image" href="assets/kd100.webp" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/archivo-latin.woff2" crossorigin>
+<link rel="stylesheet" href="scrollcraft.css">
+<link rel="stylesheet" href="sbs.css">
+</head>
+<body>
+
+<div class="sc-grain" aria-hidden="true"></div>
+
+<header class="bar">
+  <a class="bar__mark" href="#top" aria-label="Socitech Business Solutions, haut de page">
+    <img src="assets/logo-socitech.webp" width="842" height="258" alt="Socitech Business Solutions">
+  </a>
+  <nav aria-label="Navigation principale">
+    <a class="cta bar__cta" href="#devis" data-jump-end>Demander un devis<span class="bar__count" data-sel-count hidden></span></a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- 1 · ARRIVAL. The machine in the dark, banknotes drifting toward its hopper. -->
+  <section class="hero" data-sc-act="pin" data-sc-span="2" data-sc-drift="#0b1015" aria-labelledby="hero-title">
+    <div data-sc-stage class="hero__stage">
+      <p class="hero__back" aria-hidden="true">KD100</p>
+      <div class="hero__beam" aria-hidden="true"></div>
+
+      <div class="hero__machine">
+        <span class="hero__shadow" aria-hidden="true"></span>
+        <img class="hero__reflet" src="assets/kd100.webp" width="468" height="912" alt="" aria-hidden="true">
+        <img class="hero__unit" src="assets/kd100.webp" width="468" height="912" alt="Automate de dépôt Kisan KD100 : une tête bleue avec écran tactile et trémie, sur un coffre gris anthracite." fetchpriority="high">
+      </div>
+
+      <div class="hero__notes" aria-hidden="true">
+        <i class="note" style="--x:5vw;  --y:68vh; --w:15rem; --r:-18deg; --dr:34deg;  --blur:4px;   --d:30; --h:150"></i>
+        <i class="note" style="--x:30vw; --y:80vh; --w:11rem; --r:12deg;  --dr:-42deg; --blur:1.2px; --d:20; --h:212"></i>
+        <i class="note" style="--x:47vw; --y:12vh; --w:8rem;  --r:-8deg;  --dr:26deg;  --blur:0px;   --d:10; --h:150"></i>
+        <i class="note" style="--x:57vw; --y:60vh; --w:10rem; --r:22deg;  --dr:-30deg; --blur:0.6px; --d:16; --h:342"></i>
+        <i class="note note--xl" style="--x:86vw; --y:76vh; --w:15rem; --r:-30deg; --dr:38deg;  --blur:5px;   --d:34; --h:212"></i>
+        <i class="note note--xl" style="--x:91vw; --y:9vh;  --w:7rem;  --r:14deg;  --dr:-22deg; --blur:0px;   --d:8;  --h:342"></i>
+        <i class="note note--xl" style="--x:21vw; --y:7vh;  --w:6rem;  --r:30deg;  --dr:-52deg; --blur:0.4px; --d:6;  --h:150"></i>
+      </div>
+
+      <div class="hero__scrim" aria-hidden="true"></div>
+      <div class="hero__copy">
+        <div class="hero__lead">
+          <h1 id="hero-title" class="sc-display hero__title" data-sc-cue="0 0.42 0 0.36" data-sc-kinetic="lines">Les billets entrent. Le compte est juste.</h1>
+          <p class="hero__sub" data-sc-cue="0 0.38 0 0.36">SBS installe et entretient en Côte d'Ivoire les automates de dépôt et les compteuses Kisan.</p>
+        </div>
+        <dl class="hero__facts">
+          <div data-sc-cue="0.44 1 0.3 0.1"><dt>KD100 · cadence</dt><dd>1 000 <small>billets/min</small></dd></div>
+          <div data-sc-cue="0.52 1 0.3 0.1"><dt>Trémie</dt><dd>200 <small>billets</small></dd></div>
+          <div data-sc-cue="0.6 1 0.3 0.1"><dt>Coffre</dt><dd>15 000 <small>billets par sac</small></dd></div>
+        </dl>
+      </div>
+
+      <div class="hero__floor" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- 2 · THE GESTURE. A real photograph, opened by an iris and pushed in by the scroll. -->
+  <section class="scene" data-sc-act="flow" data-sc-drift="#0d141b" aria-labelledby="scene-title">
+    <div class="scene__grid">
+      <figure class="scene__fig" data-sc-reveal="iris" data-sc-reveal-at="0.05 0.4">
+        <div class="scene__glow" aria-hidden="true"></div>
+        <div class="scene__lift">
+          <img src="assets/hand-cut.webp" width="1410" height="1114" alt="Une main glisse des billets de 2 000 francs CFA dans la trémie éclairée d'un automate Kisan." loading="lazy">
+          <span class="scene__led" aria-hidden="true"></span>
+        </div>
+      </figure>
+      <div class="scene__text">
+        <h2 id="scene-title" class="sc-display scene__title" data-sc-cue="0.08 0.66 0.36 0.12" data-sc-kinetic="lines">Compter, authentifier, tracer. En un seul geste.</h2>
+        <div class="sc-stack scene__body" data-sc-in data-sc-stagger="70">
+          <p class="sc-lede">Les billets sont comptés et authentifiés pendant qu'ils passent. Les douteux tombent dans une poche à part.</p>
+          <p class="sc-body">Chaque dépôt laisse une trace : coupures, montant, numéros de série, reçu imprimé. Il est écrit dans un fichier XML, puis comptabilisé dans le core banking, en temps réel ou en différé.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 · IN THE FIELD. Real photographs that move inside their frames. -->
+  <section class="fields" data-sc-act="pan" data-sc-span="2.2" data-sc-drift="#0b1015" aria-labelledby="fields-title">
+    <div data-sc-stage class="fields__stage">
+      <div class="strip" data-sc-pan="0.03">
+        <div class="strip__lead">
+          <h2 id="fields-title" class="sc-display strip__title">Partout où l'on compte des billets.</h2>
+          <p class="sc-body">Quatre terrains où travaillent déjà les machines Kisan.</p>
+        </div>
+
+        <figure class="shot" style="--c: 0.14">
+          <div class="shot__frame">
+            <img class="shot__bg" src="assets/sector-agence.webp" width="1136" height="832" alt="Deux personnes, vues de dos, déposent des billets sur une rangée d'automates Kisan." loading="lazy">
+            <img class="shot__fg" src="assets/sector-agence-fg.webp" width="1136" height="832" alt="" aria-hidden="true" loading="lazy">
+          </div>
+          <figcaption><b>Vente au détail</b><span>La recette validée part aussitôt au coffre.</span></figcaption>
+        </figure>
+
+        <figure class="shot" style="--c: 0.42; --at: 0.12">
+          <div class="shot__frame">
+            <img class="shot__bg" src="assets/sector-finance.webp" width="1136" height="832" alt="Une employée de banque pose une liasse sur une compteuse de billets à son guichet." loading="lazy">
+          </div>
+          <figcaption><b>Secteur financier</b><span>Caisses et guichets : compter et authentifier en un passage.</span></figcaption>
+        </figure>
+
+        <figure class="shot" style="--c: 0.68; --at: 0.38">
+          <div class="shot__frame">
+            <img class="shot__bg" src="assets/sector-comptage.webp" width="1136" height="832" alt="Une main retire une liasse d'une trieuse de billets à plusieurs poches." loading="lazy">
+          </div>
+          <figcaption><b>Centre de comptage</b><span>Gros volumes, tri et rejet des billets douteux.</span></figcaption>
+        </figure>
+
+        <figure class="shot" style="--c: 0.92; --at: 0.62">
+          <div class="shot__frame">
+            <img class="shot__bg" src="assets/sector-casino.webp" width="1136" height="832" alt="Une compteuse de billets posée au bord d'une table de jeu, dans une salle de casino." loading="lazy">
+          </div>
+          <figcaption><b>Casino</b><span>Des flux d'espèces continus, comptés sur place.</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 · PROOF, and the peak. Scroll is a clock: one minute passes. -->
+  <section id="banc" class="bench" data-sc-act="pin" data-sc-span="3.4" data-sc-drift="#080c10" aria-labelledby="bench-title">
+    <div data-sc-stage class="bench__stage" data-sc-verify-state="0">
+      <header class="bench__head">
+        <h2 id="bench-title" class="bench__title">Une minute de comptage</h2>
+        <p class="bench__clock"><span class="sr-only">Temps écoulé : </span><span data-clock>00:00</span></p>
+      </header>
+
+      <div class="bench__lanes">
+        <div class="lane" data-lane>
+          <label class="lane__pick"><span class="sr-only">Première machine</span>
+            <select data-lane-select>
+              <option value="kd100" selected>KD100</option>
+              <option value="kd10">KD10</option>
+              <option value="kd20">KD20</option>
+              <option value="kdl100">KDL-100</option>
+              <option value="newton3">Newton 3</option>
+            </select>
+          </label>
+          <p class="lane__count"><span class="lane__num" data-lane-count>0</span> <span class="lane__unit">billets</span></p>
+          <div class="lane__belt" aria-hidden="true"><i data-lane-belt></i></div>
+          <div class="lane__bundles" data-lane-bundles aria-hidden="true"></div>
+          <p class="lane__fact" data-lane-fact></p>
+        </div>
+
+        <div class="lane" data-lane>
+          <label class="lane__pick"><span class="sr-only">Seconde machine</span>
+            <select data-lane-select>
+              <option value="kd100">KD100</option>
+              <option value="kd10">KD10</option>
+              <option value="kd20" selected>KD20</option>
+              <option value="kdl100">KDL-100</option>
+              <option value="newton3">Newton 3</option>
+            </select>
+          </label>
+          <p class="lane__count"><span class="lane__num" data-lane-count>0</span> <span class="lane__unit">billets</span></p>
+          <div class="lane__belt" aria-hidden="true"><i data-lane-belt></i></div>
+          <div class="lane__bundles" data-lane-bundles aria-hidden="true"></div>
+          <p class="lane__fact" data-lane-fact></p>
+        </div>
+      </div>
+
+      <div class="bench__foot">
+        <p class="bench__hint" data-sc-cue="0 0.24 0 0.5">Faites défiler. Ici, chaque cran de molette est du temps qui passe.</p>
+        <p class="bench__verdict" data-sc-cue="0.8 1 0.3 0.12" data-bench-verdict></p>
+      </div>
+      <p class="bench__legend">Une barre = une liasse de 100 billets. Cadences nominales du constructeur. Choisissez les deux machines à comparer.</p>
+    </div>
+  </section>
+
+  <!-- 5 · THE RANGE. Same label on every machine. -->
+  <section class="range" data-sc-act="pan" data-sc-span="2.6" data-sc-drift="#0d141b" aria-labelledby="range-title">
+    <div data-sc-stage class="range__stage">
+      <div class="rail" data-sc-pan="0.03">
+        <div class="rail__lead">
+          <h2 id="range-title" class="sc-display rail__title">Du comptoir au mur extérieur.</h2>
+          <p class="sc-body">Même reconnaissance des billets, même reçu. D'une machine à l'autre, trois choses changent : la cadence, le coffre et la place au sol.</p>
+        </div>
+
+        <article class="obj" aria-labelledby="kd100-name">
+          <figure class="obj__bay" data-sc-tilt="5"><img src="assets/kd100.webp" width="468" height="912" alt="Automate de dépôt Kisan KD100." loading="lazy"></figure>
+          <p class="plate__kind">Dépôt · back-office, grands volumes</p>
+          <h3 id="kd100-name" class="plate__name">KD100</h3>
+          <dl class="plate__specs">
+            <div><dt>Cadence</dt><dd>1 000 billets/min</dd></div>
+            <div><dt>Entrée</dt><dd>trémie de 200 billets</dd></div>
+            <div><dt>Stockage</dt><dd>15 000 billets par sac</dd></div>
+            <div><dt>Écran</dt><dd>12,3 pouces tactile</dd></div>
+          </dl>
+          <button class="pick" type="button" aria-pressed="false" data-pick="kd100"><span class="pick__mark" aria-hidden="true"></span><span data-pick-label>Ajouter à ma demande</span></button>
+        </article>
+
+        <article class="obj" style="--at: 0.08" aria-labelledby="kd10-name">
+          <figure class="obj__bay" data-sc-tilt="5"><img src="assets/kd10.webp" width="660" height="876" alt="Automate de dépôt Kisan KD10 : module bleu compact sur un coffre bas." loading="lazy"></figure>
+          <p class="plate__kind">Dépôt · comptoir, point de vente</p>
+          <h3 id="kd10-name" class="plate__name">KD10</h3>
+          <dl class="plate__specs">
+            <div><dt>Cadence</dt><dd>300 billets/min</dd></div>
+            <div><dt>Entrée</dt><dd>trémie de 100 billets</dd></div>
+            <div><dt>Stockage</dt><dd>2 000 à 3 000 billets</dd></div>
+            <div><dt>Écran</dt><dd>4,3 pouces tactile</dd></div>
+          </dl>
+          <button class="pick" type="button" aria-pressed="false" data-pick="kd10"><span class="pick__mark" aria-hidden="true"></span><span data-pick-label>Ajouter à ma demande</span></button>
+        </article>
+
+        <article class="obj" style="--at: 0.26" aria-labelledby="kd20-name">
+          <figure class="obj__bay" data-sc-tilt="5"><img src="assets/kd20.webp" width="600" height="924" alt="Automate de dépôt Kisan KD20 : coffre gris à hauteur de bureau, accepteur bleu sur le dessus." loading="lazy"></figure>
+          <p class="plate__kind">Dépôt · back-office, taille moyenne</p>
+          <h3 id="kd20-name" class="plate__name">KD20</h3>
+          <dl class="plate__specs">
+            <div><dt>Cadence</dt><dd>300 billets/min</dd></div>
+            <div><dt>Entrée</dt><dd>trémie de 100 billets</dd></div>
+            <div><dt>Stockage</dt><dd>4 000 ou 10 000 par sac</dd></div>
+            <div><dt>Écran</dt><dd>7 pouces tactile</dd></div>
+          </dl>
+          <button class="pick" type="button" aria-pressed="false" data-pick="kd20"><span class="pick__mark" aria-hidden="true"></span><span data-pick-label>Ajouter à ma demande</span></button>
+        </article>
+
+        <article class="obj" style="--at: 0.44" aria-labelledby="kdl100-name">
+          <figure class="obj__bay" data-sc-tilt="5"><img src="assets/kdl100.webp" width="428" height="900" alt="Automate de dépôt Kisan KDL-100 : colonne étroite, façade bleue, coffre noir en partie basse." loading="lazy"></figure>
+          <p class="plate__kind">Dépôt · mural, installable en extérieur</p>
+          <h3 id="kdl100-name" class="plate__name">KDL-100</h3>
+          <dl class="plate__specs">
+            <div><dt>Cadence</dt><dd>1 000 billets/min<sup>1</sup></dd></div>
+            <div><dt>Entrée</dt><dd>trémie de 400 billets</dd></div>
+            <div><dt>Stockage</dt><dd>10 000 billets par sac</dd></div>
+            <div><dt>Écran</dt><dd>7 pouces</dd></div>
+          </dl>
+          <button class="pick" type="button" aria-pressed="false" data-pick="kdl100"><span class="pick__mark" aria-hidden="true"></span><span data-pick-label>Ajouter à ma demande</span></button>
+        </article>
+
+        <article class="obj" style="--at: 0.62" aria-labelledby="newton3-name">
+          <figure class="obj__bay obj__bay--low" data-sc-tilt="5"><img src="assets/newton3.webp" width="728" height="672" alt="Compteuse de billets Kisan Newton 3 : appareil de table bleu et gris à deux poches." loading="lazy"></figure>
+          <p class="plate__kind">Compteuse · de table, 1 + 1 poches</p>
+          <h3 id="newton3-name" class="plate__name">Newton 3</h3>
+          <dl class="plate__specs">
+            <div><dt>Cadence</dt><dd>1 200 billets/min<sup>2</sup></dd></div>
+            <div><dt>Entrée</dt><dd>trémie de 600 billets</dd></div>
+            <div><dt>Réception</dt><dd>200 billets, rejet 100</dd></div>
+            <div><dt>Écran</dt><dd>4,3 pouces tactile</dd></div>
+          </dl>
+          <button class="pick" type="button" aria-pressed="false" data-pick="newton3"><span class="pick__mark" aria-hidden="true"></span><span data-pick-label>Ajouter à ma demande</span></button>
+        </article>
+
+        <div class="rail__note" style="--at: 0.8">
+          <p class="rail__note-text">Cochez, puis descendez : le reçu s'imprime en bas.</p>
+          <p class="rail__foot"><sup>1</sup> Brochure constructeur. <sup>2</sup> En valorisation, 1 500 en comptage simple. Fiche revendeur, à confirmer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 · SERVICE. Short and plain. -->
+  <section class="service" data-sc-act="flow" data-sc-drift="#0b1015" aria-labelledby="service-title">
+    <div class="service__grid">
+      <div class="service__text sc-stack" data-sc-in data-sc-stagger="60">
+        <h2 id="service-title" class="sc-display service__title">Livré, raccordé, entretenu depuis Abidjan.</h2>
+        <dl class="service__list">
+          <div><dt>Installation</dt><dd>Mise en service sur site et pilotes d'interfaçage avec le core banking.</dd></div>
+          <div><dt>Maintenance</dt><dd>Matérielle sur site, réparation en atelier, maintenance logicielle.</dd></div>
+          <div><dt>Support</dt><dd>Basé en Côte d'Ivoire : appels, e-mails et diagnostic technique.</dd></div>
+          <div><dt>Constructeur</dt><dd>Kisan Electronics, Corée du Sud, depuis 1988. Reconnaissance de billets pour plus de 100 pays.</dd></div>
+        </dl>
+      </div>
+      <figure class="screen" data-sc-reveal="left" data-sc-reveal-at="0.12 0.45">
+        <div class="screen__bezel">
+          <img src="assets/screen-menu.webp" width="1898" height="720" alt="Écran d'accueil de la KD100 : trois grands boutons, Dépôt en vert, Compter en bleu, Enveloppe en violet." loading="lazy">
+        </div>
+        <figcaption>L'écran d'accueil de la KD100 : dépôt, comptage seul ou dépôt sous enveloppe.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 7 · COMMITMENT. The wheel prints a receipt; its last line is the button. -->
+  <section id="devis" class="close" data-sc-act="pin" data-sc-span="1.7" data-sc-drift="#0b1015" aria-labelledby="close-title">
+    <div data-sc-stage class="close__stage" data-sc-verify-state="0">
+      <div class="close__text">
+        <h2 id="close-title" class="sc-display close__title" data-sc-cue="0 1 0 0">Votre demande tient sur un reçu.</h2>
+        <p class="sc-lede" data-sc-cue="0.05">Continuez de défiler : il s'imprime, avec les machines que vous avez cochées.</p>
+        <dl class="close__contact" data-sc-cue="0.1">
+          <div><dt>Téléphone</dt><dd><a href="tel:+2252722528535">(225) 27 22 52 85 35</a></dd></div>
+          <div><dt>E-mail</dt><dd><a href="mailto:sbs@socitech.com">sbs@socitech.com</a></dd></div>
+          <div><dt>Web</dt><dd><a href="https://www.socitechbusiness.com" rel="noopener">socitechbusiness.com</a></dd></div>
+        </dl>
+      </div>
+
+      <div class="printer" data-printer>
+        <div class="printer__slot" aria-hidden="true"></div>
+        <div class="printer__out">
+          <div class="receipt">
+            <p class="receipt__head">SOCITECH BUSINESS SOLUTIONS<br>Abidjan, Côte d'Ivoire</p>
+            <p class="receipt__title">Demande de devis</p>
+            <p class="receipt__row"><span>Date</span><span data-receipt-date></span></p>
+            <ul class="receipt__lines" data-receipt-lines>
+              <li class="receipt__empty">Aucune machine cochée pour l'instant.</li>
+            </ul>
+            <p class="receipt__row"><span>Installation</span><span>sur site</span></p>
+            <p class="receipt__row"><span>Maintenance</span><span>Abidjan</span></p>
+            <a class="cta receipt__cta" href="#demande" data-open-request>Demander un devis</a>
+          </div>
+        </div>
+      </div>
+
+      <footer class="foot">
+        <p class="foot__contact"><a href="tel:+2252722528535">(225) 27 22 52 85 35</a> · <a href="mailto:sbs@socitech.com">sbs@socitech.com</a></p>
+        <p>Maquette de démonstration, non publiée. Données techniques : présentation SBS d'octobre 2025, sauf mentions <sup>1</sup> et <sup>2</sup>. Photos et visuels des machines : Kisan Electronics et SBS.</p>
+      </footer>
+    </div>
+  </section>
+
+</main>
+
+<dialog class="sheet" id="demande" aria-labelledby="sheet-title">
+  <form method="post" action="#devis" data-request novalidate>
+    <h2 id="sheet-title" class="sheet__title">Demander un devis</h2>
+    <div class="field">
+      <label for="f-org">Organisation</label>
+      <input id="f-org" name="organisation" type="text" autocomplete="organization" required>
+    </div>
+    <div class="field">
+      <label for="f-mail">E-mail professionnel</label>
+      <input id="f-mail" name="email" type="email" autocomplete="email" required>
+    </div>
+    <fieldset class="field field--set">
+      <legend>Machines</legend>
+      <label class="check"><input type="checkbox" name="machines" value="kd100" data-machine><span>KD100</span></label>
+      <label class="check"><input type="checkbox" name="machines" value="kd10" data-machine><span>KD10</span></label>
+      <label class="check"><input type="checkbox" name="machines" value="kd20" data-machine><span>KD20</span></label>
+      <label class="check"><input type="checkbox" name="machines" value="kdl100" data-machine><span>KDL-100</span></label>
+      <label class="check"><input type="checkbox" name="machines" value="newton3" data-machine><span>Newton 3</span></label>
+      <label class="check check--wide"><input type="checkbox" name="machines" value="cheque"><span>Borne de dépôt de chèques <small>hors catalogue, à préciser</small></span></label>
+    </fieldset>
+    <p class="sheet__status" role="status" data-request-status></p>
+    <div class="sheet__actions">
+      <button class="cta" type="submit">Envoyer la demande</button>
+      <button class="sheet__close" type="button" data-close-request>Fermer</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="scrollcraft.js"></script>
+<script>ScrollCraft.mount(document.body);</script>
+<script src="sbs.js"></script>
+</body>
+</html>
